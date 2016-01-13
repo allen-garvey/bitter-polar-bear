@@ -21,3 +21,14 @@ permalink: blog/:title
 
 # Build settings
 markdown: kramdown
+
+# Layout defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
