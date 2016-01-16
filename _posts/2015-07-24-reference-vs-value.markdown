@@ -1,0 +1,12 @@
+---
+title:  "Reference vs. Value"
+date:   2015-07-24 20:00:00 -0500
+categories: computer-science
+---
+One of the concepts that’s hard for beginning programmers to understand is the difference in copying variables by reference versus by value. Copying a variable by reference means copying the location in memory where that variable is stored (called a pointer, since it points to where the data is), while copying by value means copying all the data in the actual variable itself. I came up with this metaphor to try to explain it better.
+
+Imagine that you’re a teacher and want to give ten students a Wikipedia article to study. The first option is to print out the article ten times and give it to each student. While this has the advantage that each student can markup and highlight the article as needed, it takes time to print out a long article ten times, as well as a lot of paper and ink. The other option is to print out the URL for the article ten times and give it to each student to look up on their own. While this uses a lot less paper and ink and takes less time to print out, the downside of this is that if anyone changes or deletes the Wikipedia article, this changes the article for everyone.
+
+While not perfect, this story illustrates some of the benefits and drawbacks of each method. While making copies of the article (copying by value) has the benefit that each student’s copy is unique and unaffected by other students, it has the drawback that it takes more time to make the copies and uses more paper (memory). Giving the student’s the URL has the benefit of using less paper (memory) and is faster, but since there is only one source of data, any changes to it means that the data is changed for everyone.
+
+On a related note, in every programming language I know, numeric values are passed by value while everything else is passed by reference. I always wondered about this, and the question was finally resolved while I was beginning to learn C, or more specifically, pointer arithmetic. It was only then that I really grasped that pointers are just integer numbers, so that any pointer to a number would be at least the same size as the number you are pointing to (for integers at least), which is why it makes no sense to copy numbers by reference.
