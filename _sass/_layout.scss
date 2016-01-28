@@ -44,7 +44,14 @@
 /**
  * Site footer
  */
+.pagination{
+    text-align: center;
+    margin-bottom: 1em;
 
+    .page_number{
+        margin: 0 2em;
+    }
+}
 
 
 
