@@ -36,7 +36,7 @@ $type_scale_p5   : 1.5;
 
 //type scale
 $type_scale : $type_scale_p4;
-$rem_base : 16px;
+$rem_base : $base-font-size;
 
 
 // Use media queries like this:
