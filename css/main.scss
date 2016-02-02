@@ -7,6 +7,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		"constants",
+		"functions",
+		"mixins",
         "base",
         "layout",
         "syntax-highlighting"
