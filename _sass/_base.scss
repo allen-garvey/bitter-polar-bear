@@ -82,7 +82,20 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: bold;
+}
+
+h1{
+    @include font_size(3);
+}
+h2{
+    @include font_size(2);   
+}
+h3{
+    @include font_size(1);
+}
+h4{
+    @include font_size(0);
 }
 
 

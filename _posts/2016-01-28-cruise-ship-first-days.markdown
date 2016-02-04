@@ -5,11 +5,11 @@ categories: cruise-ships
 ---
 While there are some things I still remember fondly about working on cruise ships, one thing that I don't miss are actually getting to the ship, and the first day there. As someone who completed 10 cruise ship contracts on 10 different ships, I can tell you, the first day and the days before my contract started were always the same, and always involved a lot of waiting and lack of sleep.
 
-##Two Days Before My Contract Starts
+## Two Days Before My Contract Starts
 
 I'm spending hours packing, looking for necessary items and double and triple checking to make sure I didn't forget anything since there will be no going back if I do, and it might be a while to get a replacement, if I ever do (Some highlights include searching all over Australia and New Zealand for a contacts lens case and all over Europe for reusable earplugs). As usual, I've waited till the last minute because I was using most of the stuff I needed to pack, so unless I want to buy two of everything it's not realistic to keep everything packed all the time. To be fair to myself, you don't always get much notice before you leave&mdash;one time I agreed to a contract on Wednesday and left on Sunday, completing all the my final projects for school in the interim. I also have to constantly juggle how much everything weighs, because I usually end up bringing two 50 lb checked bags and two carry-ons weighing 20-30 lbs each. By the end of this it's always well past midnight, and I usually have to get up early the next morning to catch my flight.
 
-##The Day Before My Contract Starts
+## The Day Before My Contract Starts
 
 I'm exhausted, but the anxiety over leaving causes my to wake up early without trouble. I perform last minute checks over supplies and pack the car and head to the airport. Here is where the waiting begins. I wait to check-in, and hope my baggage is under the weight limit (on multiple occasions I've had to redistribute items between my checked bags and carry-on luggage). More waiting to go through security and then waiting until the plane arrives. Get on the plane and wait for it to take off. Try to sleep on the plane, but don't generally succeed. 
 
@@ -17,7 +17,7 @@ Finally get to destination and wait to go through immigration, and then at bagga
 
 Head out and try to make the best of a situation where I try to appreciate/see all the sights that I can while being extremely tired. It goes as well as could be imagined under the circumstances, though I never get as much out of the experience as I would like. Head back to the hotel between 8 and 10 p.m. and go to bed.
 
-##First Day of Contract
+## First Day of Contract
 
 Wake up at 6 a.m. because pickup from the hotel is always obscenely early. As you can imagine, this does not improve my situation. Passengers can never be kept waiting, and cruise ship embarkation days are always short of time, so even though new crew members cannot board the ship until all previous passengers have disembarked (which usually isn't completed until 9 or 10 a.m.) we have to get to the ship by 8 ('just in case').
 
