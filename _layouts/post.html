@@ -16,7 +16,7 @@ layout: default
 <aside class="recommended_posts">
 	<h4>You might also like:</h4>
 	{% for category in page.categories %}
-	    {% for post in site.categories[category] %}
+	    {% for post in site.categories[category] limit:4 %}
 	    	{% if post != page %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 			{% endif %}
