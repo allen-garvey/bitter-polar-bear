@@ -14,11 +14,16 @@ layout: default
 
 </article>
 <aside class="recommended_posts">
-	<h4>You might also like:</h4>
+	{% assign show_title = true %}
 	{% for category in page.categories %}
 	    {% for post in site.categories[category] limit:4 %}
 	    	{% if post != page %}
+	    		{% if show_title %}
+					<h4>You might also like:</h4>
+					{% assign show_title = false %}
+	    		{% endif %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+	  			
 			{% endif %}
 	    	
 		{% endfor %}
