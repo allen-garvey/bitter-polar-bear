@@ -20,6 +20,7 @@ layout: default
 	    	{% if post != page %}
 	    		{% if show_title %}
 					<h4>You might also like:</h4>
+					<ul>
 					{% assign show_title = false %}
 	    		{% endif %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -28,4 +29,5 @@ layout: default
 	    	
 		{% endfor %}
 	{% endfor %}
+	</ul>
 </aside>
