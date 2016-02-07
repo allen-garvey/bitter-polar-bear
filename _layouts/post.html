@@ -14,17 +14,17 @@ layout: default
 
 </article>
 <aside class="recommended_posts">
-	{% assign show_title = true %}
+	{% assign recommended_posts_num = 0 %}
+	{% assign max_recommended_posts = 4 %}
 	{% for category in page.categories %}
-	    {% for post in site.categories[category] limit:4 %}
-	    	{% if post != page %}
-	    		{% if show_title %}
+	    {% for post in site.categories[category] limit:max_recommended_posts %}
+	    	{% if post != page and recommended_posts_num < max_recommended_posts  %}
+	    		{% if recommended_posts_num == 0 %}
 					<h4>You might also like:</h4>
 					<ul>
-					{% assign show_title = false %}
 	    		{% endif %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-	  			
+	  			{% assign recommended_posts_num = recommended_posts_num | plus:1 %}
 			{% endif %}
 	    	
 		{% endfor %}
