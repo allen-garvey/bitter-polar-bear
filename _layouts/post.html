@@ -14,9 +14,14 @@ layout: default
 
 </article>
 <aside class="recommended_posts">
+	{% assign random_start_index = site.time | date: "%s%N" | modulo: site.posts.size %}
+	{% assign end_index = random_start_index | plus:site.posts.size | minus:1 %}
+
 	{% assign recommended_posts_num = 0 %}
-	{% assign max_recommended_posts = 4 %}
-	{% for post in site.posts %}
+	{% assign max_recommended_posts = 5 %}
+	{% for i in (random_start_index..end_index) %}
+		{% assign index = i | modulo: site.posts.size %}
+		{% assign post = site.posts[index] %}
 		{% assign post_shown_already = false %}
 		{% for category in page.categories %}
 	    	{% if post != page and recommended_posts_num < max_recommended_posts and post.categories contains category and post_shown_already != true  %}
