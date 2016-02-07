@@ -13,7 +13,6 @@ layout: default
   </div>
 
 </article>
-<aside class="recommended_posts">
 	{% for i in (0..site.posts.size) %}{% unless forloop.last %}
     	{% if site.posts[i] == page %}
     		{% assign start_index = i %}
@@ -31,8 +30,9 @@ layout: default
 		{% for category in page.categories %}
 	    	{% if post != page and recommended_posts_num < max_recommended_posts and post.categories contains category and post_shown_already != true  %}
 	    		{% if recommended_posts_num == 0 %}
-					<h4>You might also like:</h4>
-					<ul>
+					<aside class="recommended_posts">
+						<h4>You might also like:</h4>
+						<ul>
 	    		{% endif %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 	  			{% assign recommended_posts_num = recommended_posts_num | plus:1 %}
@@ -40,7 +40,7 @@ layout: default
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
-	</ul>
-</aside>
-	</ul>
-</aside>
+	{% if recommended_posts_num > 0 %}
+			</ul>
+		</aside>
+	{% endif %}
