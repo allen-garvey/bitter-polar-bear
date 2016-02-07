@@ -16,17 +16,18 @@ layout: default
 <aside class="recommended_posts">
 	{% assign recommended_posts_num = 0 %}
 	{% assign max_recommended_posts = 4 %}
-	{% for category in page.categories %}
-	    {% for post in site.categories[category] %}
-	    	{% if post != page and recommended_posts_num < max_recommended_posts  %}
+	{% for post in site.posts %}
+		{% assign post_shown_already = false %}
+		{% for category in page.categories %}
+	    	{% if post != page and recommended_posts_num < max_recommended_posts and post.categories contains category and post_shown_already != true  %}
 	    		{% if recommended_posts_num == 0 %}
 					<h4>You might also like:</h4>
 					<ul>
 	    		{% endif %}
 	  			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 	  			{% assign recommended_posts_num = recommended_posts_num | plus:1 %}
+	  			{% assign post_shown_already = true %}
 			{% endif %}
-	    	
 		{% endfor %}
 	{% endfor %}
 	</ul>
