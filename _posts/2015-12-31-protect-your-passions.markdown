@@ -1,7 +1,7 @@
 ---
 title:  "Protect Your Passions"
 date:   2015-12-30 09:01:00 -0500
-categories: development life-lessons
+categories: software-development life-lessons
 ---
 Everyone tells you to follow your dreams by encouraging your passions, but no one acknowledges the dark side of that. It’s normal to hate your job if it’s doing something you dislike, but it’s a tragedy if you hate a job doing something you love. When your career is doing something you love there is the real possibility of burnout, until it becomes painful to perform an activity you used to enjoy. Burnout becomes a possibility whenever you put external pressures on activities instead of doing them naturally, when you feel like doing them. This is what happens when you replace internal motivation with external rewards. While the most obvious scenario is when you make a career out of a former hobby, it can also happen when you start studying a subject seriously at a school or with a teacher after or if you start cooking everyday for your family after doing it only occasionally for fun. The common denominator in all these settings is that you are taking something you had done for enjoyment and are now moving past your normal limits into boredom or drudgery. This has happened to me several times, the most painful examples include when I felt forced to write more music, faster than I had ever done before for my senior music composition recital and when as part of a cruise ship contract I had to perform music eight hours a day for months. The repercussions of both traumas have lasted for years, and still feel the effects to this day.
 

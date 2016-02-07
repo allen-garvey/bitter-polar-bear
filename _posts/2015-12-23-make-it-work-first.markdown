@@ -1,7 +1,7 @@
 ---
 title:  "Make It Work First"
 date:   2015-12-23 08:45:00 -0500
-categories: development life-lessons
+categories: software-development life-lessons
 ---
 As I became more experienced in software development and started to tackle more complicated problems, one of the issues I would sometimes have is that it can feel hard to just get started. I would feel paralyzed because I would want everything to be perfect from the start. This was also partly caused as I was learning more and more development best practices, and wanting to use all of them in every project, right from the get-go. What I ended up discovering is that the best advice is to just make something that works, even if it’s not the best solution possible. In writing the first draft is just about getting the words down on paper—the real magic comes after multiple rewrites. Similarly, in software development, if you have something that works, you can gradually refactor it until it becomes what you want it to be.
 

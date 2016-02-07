@@ -1,7 +1,7 @@
 ---
 title:  "Lessons from the Job Hunt"
 date:   2016-01-07 08:40:44 -0500
-categories: development life-lessons
+categories: software-development life-lessons
 ---
 I'm kind of a cerebral person that likes to think things through to try to understand them, so sometimes I forget how much you can learn by actually doing something. I had always thought that you're supposed to figure out exactly what kind of job you want first, before looking for and applying to jobs. However, I learned that the job search process is really about discovery, as by looking through and applying you discover what kind of job you really want, and what you really want to become.
 

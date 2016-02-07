@@ -1,7 +1,7 @@
 ---
 title:  "Permissions Errors"
 date:   2015-12-21 08:58:00 -0500
-categories: development
+categories: software-development
 ---
 In all of software development, some of the most pernicious errors I have encountered thus far have been permissions errors. I think this is because unlike most errors, which give some kind of message, a lot of the time when things fail because of permissions, there is no error or warning, things just don’t work. This is frustrating, especially for newbies, as if there is no message, there is nothing you can Google for help. It’s gotten to the point where if something is not working and I can’t think of a reason, I automatically start looking at permissions first. Here are some of my stories of problems they have caused me.
 

@@ -1,7 +1,7 @@
 ---
 title:  "How's Your Career?"
 date:   2015-11-15 22:42:00 -0500
-categories: life lessons
+categories: life-lessons
 ---
 One of my favorite professors in music school’s most common greeting was “How’s your career?”. At the time I didn’t think much of it. This lack of thought about career planning was a common theme throughout my college and post-college years. Part of this was by design&mdash;I studied music composition in college because that was what interested me most, not to get me a job, and fell into the career of performing on cruise ships because I had enjoyed playing jazz gigs for extra money while in school and I couldn’t think of anything better to do. After purposely switching to study software development, I feel like I am actually planning and controlling my career for the first time.
 

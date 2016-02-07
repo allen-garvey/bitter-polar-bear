@@ -1,7 +1,7 @@
 ---
 title:  "Learn To Type"
 date:   2016-01-14 08:33:00 -0500
-categories: development life-lessons
+categories: software-development life-lessons
 ---
 When I see questions from people on how to get started in development, one of the most valuable things I think you can learn is how to touch-type, if you don't know already. While software development is more than simply typing things up, everything you do is through the computer, and more specifically the keyboard, so learning to use the keyboard more efficiently will make you more effective in everything you do. It is even more valuable because even if software development doesn't end up being the career path for you, you will most likely end up using a computer regularly in you daily life, so unless we end up in a future where everything is controlled by touch-screens or virtual reality or voice control like in *Her,* your time investment will not be wasted. Surprisingly though, the speed improvement is actually not the largest benefit I have found from learning to type.
 
