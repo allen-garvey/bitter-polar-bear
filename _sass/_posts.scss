@@ -1,0 +1,10 @@
+/*
+* Styles for all posts by categories page
+*/
+
+.post_categories_list{
+	margin-left: 0;
+	&, ul{
+		list-style-type: none;
+	}
+}
