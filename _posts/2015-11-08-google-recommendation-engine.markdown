@@ -1,7 +1,7 @@
 ---
 title:  "Google Recommendation Engine"
 date:   2015-11-08 11:43:00 -0500
-categories: musings
+categories: technology
 ---
 Recently, I read an article that said that [50% of people do zero searches a day on Google.](https://theoverspill.wordpress.com/2015/10/19/searches-average-mobile-google-problem/) This obviously poses a huge problem for Google, as more people use mobile devices than desktops for web browsing, and the numbers are only going to rise as time goes on. I got to thinking about possible solutions that Google might attempt.
 
